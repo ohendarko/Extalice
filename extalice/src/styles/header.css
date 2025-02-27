@@ -24,6 +24,7 @@ h3{
   display: flex;
   align-items: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .header-menu{
@@ -31,6 +32,11 @@ h3{
   justify-content: space-between;
   gap: 1rem;
   font-weight: 200 !important;
+  flex-wrap: wrap;
+}
+
+.header-menu h3 {
+  cursor: pointer;
 }
 
 .search {
@@ -81,29 +87,3 @@ h3{
 .social-icon svg {
   fill: var(--svg-fill-two);
 }
-
-
-
-
-
-:root {
-  --primary-color: #161622;
-  --secondary-color: #FF9C01;
-  --font-size: 16px;
-  --bg-color: rgb(243, 241, 234);
-  --text-color: white;
-  --padding-header-auto: 5px;
-  --svg-fill-one: white;
-  --svg-fill-two: #161622;
-  --icon-height-width: 24px;
-  --icon-opacity: 0.8;
-  --font-weight-regular: 200;
-  --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-
-.dark-mode {
-  --bg-color: black;
-  --text-color: white;
-}
-

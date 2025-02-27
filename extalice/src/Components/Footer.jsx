@@ -3,7 +3,9 @@ import '../styles/footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <p className="footer-text">Built By Kwadwo Ohene Darko. Copyright © 2025.</p>
+    </div>
   )
 }
 

@@ -6,9 +6,9 @@ import { icons } from '../constants';
 const Header = () => {
   return (
     <div className='header'>
-      <div className='heading'>
+      {/* <div className='heading'>
         <h2 className="heading-text">EXTALICE</h2>
-      </div>
+      </div> */}
 
       <div className="header-items">
         <div className="header-menu">

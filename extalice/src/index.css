@@ -74,3 +74,49 @@ body{
 html {
   font-family: 'Poppins', sans-serif, Inter, system-ui, Avenir, Helvetica, Arial;
 }
+
+:root {
+  --primary-color: #161622;
+  --secondary-color: #FF9C01;
+  --font-size: 16px;
+  --bg-color: rgb(243, 241, 234);
+  --text-color: white;
+  --text-color-secondary: rgb(124, 100, 14);
+  --padding-header-auto: 5px;
+  --svg-fill-one: white;
+  --svg-fill-two: #161622;
+  --icon-height-width: 24px;
+  --icon-opacity: 0.8;
+  --font-weight-regular: 200;
+  --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --footer-bg: #1a1a1a
+}
+
+.dark-mode {
+  --bg-color: black;
+  --text-color: white;
+}
+
+/* Width and height */
+::-webkit-scrollbar {
+  width: 7px; /* Vertical scrollbar width */
+  height: 7px; /* Horizontal scrollbar height */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-radius: 5px;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color-secondary);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #493b02;
+}

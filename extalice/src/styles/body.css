@@ -1,0 +1,190 @@
+h1 {
+  font-weight: 300;
+}
+
+
+
+.sections {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+  
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+
+}
+
+.background-text {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 2.5em;
+}
+
+.background-text p {
+  cursor: pointer;
+}
+
+.top-image-container {
+  width: 100%;
+  height: 100%; /* Set a fixed height */
+  overflow: hidden; /* Ensures no overflow */
+  transform: translateZ(-10px) scale(2);
+}
+
+.image-top {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+
+}
+
+.image-text {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 100px;
+  z-index: 2000;
+  font-size: xx-large;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.overlay-content {
+  font-size: 3em;
+}
+
+.tt-left {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.tt-right {
+  text-shadow: 0 0 5px white;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.438);
+  backdrop-filter: blur(10px); /* The blur effect */
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.name {
+  color:var(--text-color-secondary);
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.post-lineup {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.read-more {
+  font-weight: 200;
+  font-size: 0.95em;
+}
+
+.see-more {
+  cursor: pointer;
+}
+
+.fashion-lineup {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  width: 100%;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.fashions {
+  display: flex;
+  gap: 2;
+  overflow: scroll;
+}
+
+.fashionitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alice-fashionworld {
+  align-self: center;
+}
+
+.fashion-image {
+  height: 400px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  border: 2px solid rgba(124, 100, 14, 0.632);
+  margin-bottom: -90px;
+}
+
+.fashion-price {
+  position: relative;
+  bottom: 395.2px;
+  right: 96.5px;
+  padding: 3px;
+  border-radius: 7px;
+  background-color: rgba(124, 100, 14, 0.632);
+  color: white;
+}
+
+.fashion-status {
+  position: relative;
+  bottom: -35px;
+  left: 77px;
+  background-color: rgba(255, 255, 255, 0.679);
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid rgba(15, 6, 54, 0.308);
+}
+
+.open-store {
+  align-self: center;
+  cursor: pointer;
+}
+
+
+/* Reduce scroll speed effect */
+@media (prefers-reduced-motion: no-preference) {
+  .top-image-container {
+    transform: translateY(calc(var(--scrollY, 0) * 0.5)); /* Adjust multiplier for speed */
+  }
+}
