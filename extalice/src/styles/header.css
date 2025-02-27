@@ -1,0 +1,109 @@
+.header {
+  font-family: var(--font-primary);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  padding: var(--padding-header-auto);
+  
+}
+
+h3{
+  font-weight: var(--font-weight-regular);
+}
+
+.heading-text{
+  font-family: var(--font-secondary);
+  font-weight: 300 !important;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-weight: 200 !important;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-width: 1px;
+  border-color: var(--primary-color);
+  border-style: solid;
+  padding: 5px;
+  padding-inline: 15px;
+  border-radius: 30px;
+}
+
+.search-box{
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  border: none;
+  font-family:var(--font-primary);
+  font-weight: var(--font-weight-regular);
+  font-size: 15px;
+}
+
+.search-icon{
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+  margin-left: 5px;
+  cursor: pointer;
+  fill: var(--primary-color);
+}
+
+.search-icon:hover {
+  height: var(--icon-height-width);
+  width: var(--icon-height-width);
+  opacity: 0.8;
+}
+
+.search-box:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.socials {
+  cursor: pointer;
+  display: flex;
+}
+
+.social-icon svg {
+  fill: var(--svg-fill-two);
+}
+
+
+
+
+
+:root {
+  --primary-color: #161622;
+  --secondary-color: #FF9C01;
+  --font-size: 16px;
+  --bg-color: rgb(243, 241, 234);
+  --text-color: white;
+  --padding-header-auto: 5px;
+  --svg-fill-one: white;
+  --svg-fill-two: #161622;
+  --icon-height-width: 24px;
+  --icon-opacity: 0.8;
+  --font-weight-regular: 200;
+  --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.dark-mode {
+  --bg-color: black;
+  --text-color: white;
+}
+
