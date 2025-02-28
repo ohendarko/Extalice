@@ -100,8 +100,8 @@ html {
 
 /* Width and height */
 ::-webkit-scrollbar {
-  width: 7px; /* Vertical scrollbar width */
-  height: 7px; /* Horizontal scrollbar height */
+  width: 5px; /* Vertical scrollbar width */
+  height: 5px; /* Horizontal scrollbar height */
 }
 
 /* Track (background) */

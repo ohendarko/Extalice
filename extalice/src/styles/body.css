@@ -112,6 +112,7 @@ h1 {
 .read-more {
   font-weight: 200;
   font-size: 0.95em;
+  cursor: pointer;
 }
 
 .see-more {
