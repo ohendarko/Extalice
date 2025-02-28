@@ -2,6 +2,15 @@ h1 {
   font-weight: 300;
 }
 
+h3 {
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 
 .sections {
@@ -97,7 +106,7 @@ h1 {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .post-lineup {
@@ -107,6 +116,7 @@ h1 {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .read-more {
@@ -115,12 +125,36 @@ h1 {
   cursor: pointer;
 }
 
-.see-more {
+.readmore {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid var(--text-color-secondary);
   cursor: pointer;
 }
 
+.readmore:hover {
+  border-color: rgba(128, 125, 125, 0.634);
+  color: rgba(128, 125, 125, 0.886);
+}
+
+.see-more {
+  cursor: pointer;
+  background-color: var(--bg-color);
+  padding: 10px;
+  width: 20vw;
+  margin-top: 0;
+  text-align: center;
+}
+
+.see-more:hover {
+  background-color: rgb(235, 232, 232);
+  font-weight: 400;
+}
+
 .fashion-lineup {
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   background-color: var(--bg-color);

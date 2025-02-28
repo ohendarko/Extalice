@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/body.css';
 import pageHighlight from "../assets/images/page-highlight.png"
 import blogpost from "../assets/sample-blog.js";
 import fashion from '../assets/sample-fashion.js';
+import BlogListing from './BlogListing.jsx';
+import FashionListing from './FashionListing.jsx';
 
 const Body = () => {
   return (
@@ -10,8 +13,12 @@ const Body = () => {
       <div className="sections">
           <img className='background' src={pageHighlight} alt="" />
           <div className="background-text">
+            <Link to="/shop">
             <p className="image-top-text tt-left overlay-content">SHOP</p>
+            </Link>
+            <Link to="/blogs">
             <p className="image-top-text overlay-content tt-right">BLOG</p>
+            </Link>
           </div>
       </div>
       
@@ -21,25 +28,18 @@ const Body = () => {
         <div className="post-lineup">
           {blogpost.slice(0, 3).map((item) => {
             return (
-              <div className='post-container' key={item.id}>
-                <h3 className='blog-title'>{item.title}</h3>
-                <div className="post-content">{item?.content.slice(0, 150)} . . . &nbsp; <span className="read-more">Read more</span></div>
-              </div>
+              <BlogListing job={item} />
             )
           })}
         </div>
-        <h3 className='see-more'>See More</h3>
+        <Link to="/blogs"><h3 className='see-more'>See More</h3></Link>
 
         <div className="fashion-lineup">
           <h1 className="alice-fashionworld">Alice Fashionworld</h1>
           <div className="fashions">
             {fashion.map((item) => {
               return (
-                <div className="fashionitem" >
-                  <img src={item.url} alt="fashion item" className='fashion-image' />
-                  <p className="fashion-status">{item.status}</p>
-                  <p className="fashion-price">{item.price}</p>
-                </div>
+                <FashionListing fashion={item} />
               )
             })}
           </div>
