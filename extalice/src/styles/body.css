@@ -2,7 +2,7 @@ h1 {
   font-weight: 300;
 }
 
-h3 {
+h3, h2 {
   font-weight: 200;
 }
 
@@ -107,6 +107,7 @@ a {
   flex-direction: column;
   max-width: 500px;
   margin-bottom: 50px;
+  margin-top: 2em
 }
 
 .post-lineup {
@@ -132,6 +133,7 @@ a {
   padding: 5px;
   border: 1px solid var(--text-color-secondary);
   cursor: pointer;
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .readmore:hover {
@@ -146,6 +148,8 @@ a {
   width: 20vw;
   margin-top: 0;
   text-align: center;
+  margin-bottom: 5em;
+  transition: background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
 }
 
 .see-more:hover {
@@ -217,10 +221,20 @@ a {
   text-align: center;
 }
 
+.contacts {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 20px;
+  margin-top: 8em;
+}
 
-/* Reduce scroll speed effect */
-@media (prefers-reduced-motion: no-preference) {
-  .top-image-container {
-    transform: translateY(calc(var(--scrollY, 0) * 0.5)); /* Adjust multiplier for speed */
-  }
+.sign-up,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+
 }

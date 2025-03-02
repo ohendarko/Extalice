@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   flex: 1;
+  margin-bottom: 4em;
 }
 
 h4 {
@@ -13,7 +14,7 @@ h4 {
 .blog-contents {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
+  width: clamp(60%, 800px, 90%);
 }
 
 

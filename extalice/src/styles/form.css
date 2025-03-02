@@ -1,0 +1,112 @@
+/* .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.reach-out {
+  margin-left: 0;
+}
+
+.form, .forms {
+  width: clamp(60%, 500px, 90%);
+  font-weight: 200;
+  margin-bottom: 4em;
+  font-size: 1.1em;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-block: 5px;
+
+}
+
+.formsection, .sign-button {
+  flex: 1;
+}
+
+.send-button, .join-button {
+  width: 100px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2em;
+  margin-top: -15px;
+  margin-bottom: 2em;
+}
+
+button {
+  font-family: 'Poppins';
+  padding: 12px;
+  border-radius: 0;
+  border: 1px solid;
+  background-color: white;
+  font-size: 0.9em;
+  font-weight: 300;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out, opacity 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  opacity: 0.9;
+}
+
+textarea {
+  margin-bottom: 20px;
+  height: 70px;
+}
+
+input, textarea {
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 7px;
+  font-weight: 200;
+  font-family: 'Poppins';
+  color: black;
+  font-size: 0.8em;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+}
+
+textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+}

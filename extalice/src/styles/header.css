@@ -36,6 +36,10 @@ h3{
   flex-wrap: wrap;
 }
 
+.header-menu {
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 .header-menu h3 {
   cursor: pointer;
 }
@@ -93,4 +97,10 @@ h3{
 
 .social-icon svg {
   fill: var(--svg-fill-two);
+  transition: fill 0.3s ease-in-out;
+}
+
+.social-icon svg:hover {
+  fill: rgb(82, 80, 80);
+  transition: fill 0.2s ease-in-out;
 }

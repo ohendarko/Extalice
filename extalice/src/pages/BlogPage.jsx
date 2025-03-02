@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import '../styles/blog.css';
 import blogPost from "../assets/sample-blog.js";
 import NotFoundPage from './NotFoundPage.jsx';
+import ContactMe from '../Components/ContactMe.jsx';
 
 const BlogPage = () => {
 
@@ -15,12 +16,16 @@ const BlogPage = () => {
     return <NotFoundPage message="Blog Not Found" />;
   }
   return (
+    <>
     <div className='blog-page'>
       <div className="blog-contents">
         <h1 className="blog-title">{blog.title}</h1>
         <p className="blog-content">{blog.content}</p>
       </div>
+      <ContactMe />
     </div>
+    
+    </>
 
   )
 }

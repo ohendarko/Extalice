@@ -6,6 +6,9 @@ import blogpost from "../assets/sample-blog.js";
 import fashion from '../assets/sample-fashion.js';
 import BlogListing from './BlogListing.jsx';
 import FashionListing from './FashionListing.jsx';
+import ContactForm from './ContactForm.jsx';
+import SignForm from './SignForm.jsx';
+import ContactMe from './ContactMe.jsx';
 
 const Body = () => {
   return (
@@ -44,11 +47,12 @@ const Body = () => {
             })}
           </div>
           <NavLink to="/shop">
-            <h3 className="open-store">Open Store</h3>
+            <h3 className="open-store">Open Shop</h3>
           </NavLink>
         </div>
-        
       </div>
+
+      <ContactMe />
 
     </>
   )
