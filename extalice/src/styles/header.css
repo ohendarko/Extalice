@@ -8,6 +8,7 @@
   background-color: var(--bg-color);
   color: var(--primary-color);
   padding: var(--padding-header-auto);
+  z-index: 100;
   
 }
 
@@ -37,6 +38,12 @@ h3{
 
 .header-menu h3 {
   cursor: pointer;
+}
+
+.header-menu h3:hover {
+  color: gray;
+  border-bottom: 2px solid gray;
+  margin-bottom: -2px;
 }
 
 .search {

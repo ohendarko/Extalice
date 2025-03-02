@@ -46,4 +46,6 @@
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
+  display: flex;
+  flex-direction: column;
 }

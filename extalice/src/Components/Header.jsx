@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/header.css';
 import { icons } from '../constants';
+import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
@@ -12,11 +13,11 @@ const Header = () => {
 
       <div className="header-items">
         <div className="header-menu">
-          <h3>Home</h3>
-          <h3>Blog</h3>
-          <h3>Shop</h3>
-          <h3>About</h3>
-          <h3>Contact</h3>
+          <NavLink to="/"><h3>Home</h3></NavLink>
+          <NavLink to="/blogs"><h3>Blog</h3></NavLink>
+          <NavLink to="/shop"><h3>Shop</h3></NavLink>
+          <NavLink><h3>About</h3></NavLink>
+          <NavLink><h3>Contact</h3></NavLink>
         </div>
 
         <div className="search">

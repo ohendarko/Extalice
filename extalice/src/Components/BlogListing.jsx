@@ -1,12 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const BlogListing = ({ job }) => {
+const BlogListing = ({ blog }) => {
   return (
-    <div className='post-container' key={job.id}>
-      <h3 className='blog-title'>{job.title}</h3>
-      <div className="post-content">{job?.content.slice(0, 150)} . . . </div>
+    <div className='post-container' key={blog.id}>
+      <h3 className='blog-title'>{blog.title}</h3>
+      <div className="post-content">{blog?.content.slice(0, 150)} . . . </div>
       <div className="readmore">
-        <span className="read-more">Read more</span>
+        <NavLink to={`/blogs/${blog.id}`}>
+          <span className="read-more-full">Read more</span>
+        </NavLink>
       </div>
     </div>
   )

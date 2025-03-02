@@ -214,6 +214,7 @@ a {
 .open-store {
   align-self: center;
   cursor: pointer;
+  text-align: center;
 }
 
 

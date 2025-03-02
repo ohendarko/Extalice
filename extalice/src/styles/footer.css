@@ -4,4 +4,6 @@
   background-color: var(--footer-bg);
   color: white;
   padding: 20px;
+  width: 100%;
+  align-self: flex-end;
 }

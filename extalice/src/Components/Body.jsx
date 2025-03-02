@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/body.css';
 import pageHighlight from "../assets/images/page-highlight.png"
 import blogpost from "../assets/sample-blog.js";
@@ -13,12 +13,12 @@ const Body = () => {
       <div className="sections">
           <img className='background' src={pageHighlight} alt="" />
           <div className="background-text">
-            <Link to="/shop">
+            <NavLink to="/shop">
             <p className="image-top-text tt-left overlay-content">SHOP</p>
-            </Link>
-            <Link to="/blogs">
+            </NavLink>
+            <NavLink to="/blogs">
             <p className="image-top-text overlay-content tt-right">BLOG</p>
-            </Link>
+            </NavLink>
           </div>
       </div>
       
@@ -28,22 +28,24 @@ const Body = () => {
         <div className="post-lineup">
           {blogpost.slice(0, 3).map((item) => {
             return (
-              <BlogListing job={item} />
+              <BlogListing blog={item} />
             )
           })}
         </div>
-        <Link to="/blogs"><h3 className='see-more'>See More</h3></Link>
+        <NavLink to="/blogs"><h3 className='see-more'>See More</h3></NavLink>
 
         <div className="fashion-lineup">
           <h1 className="alice-fashionworld">Alice Fashionworld</h1>
           <div className="fashions">
-            {fashion.map((item) => {
+            {fashion.slice(0, 5).map((item) => {
               return (
                 <FashionListing fashion={item} />
               )
             })}
           </div>
-          <h3 className="open-store">Open Store</h3>
+          <NavLink to="/shop">
+            <h3 className="open-store">Open Store</h3>
+          </NavLink>
         </div>
         
       </div>
