@@ -86,7 +86,7 @@ h3{
 }
 
 .search-box:focus {
-  border: none !important;
+  border: none;
   outline: none !important;
 }
 
