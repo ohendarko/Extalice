@@ -87,7 +87,7 @@ h3{
 
 .search-box:focus {
   border: none;
-  outline: none !important;
+  outline: none;
 }
 
 .socials {
