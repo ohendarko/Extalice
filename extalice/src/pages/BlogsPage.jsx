@@ -8,7 +8,7 @@ const BlogsPage = () => {
   return (
     <div  className='blog-page'>
       <div className="blog-header">
-          <h1 className='heading'>All Blogs</h1>
+          <h1 className='heading'>Journey With The King</h1>
       </div>
       <div className='blog-component'>
         {blogPosts.map((item) => {
