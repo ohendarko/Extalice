@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary-color: #161622;
+    --secondary-color: #FF9C01;
+    --font-size: 16px;
+    --bg-color: rgb(243, 241, 234);
+    --text-color: white;
+    --text-color-secondary: rgb(124, 100, 14);
+    --padding-header-auto: 5px;
+    --svg-fill-one: white;
+    --svg-fill-two: #161622;
+    --icon-height-width: 24px;
+    --icon-opacity: 0.8;
+    --font-weight-regular: 200;
+    --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --footer-bg: #1a1a1a
+  }
+}
+
+html {
+  font-family: 'Poppins', sans-serif, Inter, system-ui, Avenir, Helvetica, Arial;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-poppins);
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h3, h2 {
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: small;
+}
+
+button {
+  font-family: 'Poppins';
+  padding: 12px;
+  border-radius: 0;
+  border: 1px solid;
+  background-color: white;
+  font-size: 0.9em;
+  font-weight: 300;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out, opacity 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  opacity: 0.9;
+}
+
+textarea {
+  margin-bottom: 20px;
+  height: 70px;
+}
+
+input, textarea {
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 7px;
+  font-weight: 200;
+  font-family: 'Poppins';
+  color: black;
+  font-size: 0.8em;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+}
+
+textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+}
+
+
+.dark-mode {
+  --bg-color: black;
+  --text-color: white;
+}
+
+/* Width and height */
+::-webkit-scrollbar {
+  width: 5px; /* Vertical scrollbar width */
+  height: 5px; /* Horizontal scrollbar height */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-radius: 5px;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color-secondary);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #493b02;
+}

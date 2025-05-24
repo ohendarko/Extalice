@@ -1,0 +1,87 @@
+/* .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.reachOut {
+  margin-left: 0;
+}
+
+.form, .forms {
+  width: clamp(60%, 500px, 90%);
+  font-weight: 200;
+  margin-bottom: 4em;
+  font-size: 1.1em;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.formSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-block: 5px;
+
+}
+
+.formsection, .signButton {
+  flex: 1;
+}
+
+.sendButton, .joinButton {
+  width: 100px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2em;
+  margin-top: -15px;
+  margin-bottom: 2em;
+}
+
+.socials {
+  cursor: pointer;
+  display: flex;
+  gap: 3px;
+}
+
+.socialIcon svg {
+  fill: var(--svg-fill-two);
+  transition: fill 0.3s ease-in-out;
+  height: 40px;
+  width: 40px;
+}
+
+.socialIcon svg:hover {
+  fill: rgb(82, 80, 80);
+  transition: fill 0.2s ease-in-out;
+}
+
+.followMe {
+  margin-bottom: 2em;
+}

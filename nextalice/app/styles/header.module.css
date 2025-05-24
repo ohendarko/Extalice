@@ -1,0 +1,123 @@
+:root {
+
+    --padding-header-auto: 10px;
+    --svg-fill-one: white;
+    --svg-fill-two: #161622;
+    --icon-height-width: 24px;
+    --icon-opacity: 0.8;
+    --font-weight-regular: 200;
+    --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --footer-bg: #1a1a1a;
+    --bg-color: rgb(243, 241, 234);
+  }
+
+
+.header {
+  font-family: var(--font-primary);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  padding: var(--padding-header-auto);
+
+  z-index: 100;
+  
+}
+
+
+
+.headingText{
+  font-family: var(--font-roboto);;
+  font-weight: 300 !important;
+}
+
+.headerItems {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.headerMenu{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-weight: 200 !important;
+  flex-wrap: wrap;
+}
+
+.headerMenu {
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.headerMenu h3 {
+  cursor: pointer;
+}
+
+.headerMenu h3:hover {
+  color: gray;
+  border-bottom: 2px solid gray;
+  margin-bottom: -2px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-width: 1px;
+  border-color: var(--primary-color);
+  border-style: solid;
+  padding: 5px;
+  padding-inline: 15px;
+  border-radius: 30px;
+}
+
+.searchBox{
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  border: none;
+  font-family:var(--font-primary);
+  font-weight: var(--font-weight-regular);
+  font-size: 15px;
+}
+
+.searchIcon{
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+  margin-left: 5px;
+  cursor: pointer;
+  fill: var(--primary-color);
+}
+
+.searchIcon:hover {
+  height: var(--icon-height-width);
+  width: var(--icon-height-width);
+  opacity: 0.8;
+}
+
+.searchBox:focus {
+  border: none;
+  outline: none;
+}
+
+.socials {
+  cursor: pointer;
+  display: flex;
+  gap: 3px;
+}
+
+.socialIcon svg {
+  fill: var(--svg-fill-two);
+  transition: fill 0.3s ease-in-out;
+  height: 40px;
+  width: 40px;
+}
+
+.socialIcon svg:hover {
+  fill: rgb(82, 80, 80);
+  transition: fill 0.2s ease-in-out;
+}

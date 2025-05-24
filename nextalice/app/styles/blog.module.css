@@ -1,0 +1,78 @@
+:root{
+  --text-color-secondary: rgb(124, 100, 14);
+  --bg-color: rgb(243, 241, 234);
+}
+
+.blogPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 4em;
+}
+
+
+
+.blogContents {
+  display: flex;
+  flex-direction: column;
+  width: clamp(60%, 800px, 90%);
+}
+
+
+
+.blogHeader {
+  display: flex;
+  flex: 1;
+  max-width: 700px;
+  width: 100%;
+}
+
+.blogInfo {
+  display: flex;
+  align-items: baseline;
+}
+
+.heading {
+  align-self: flex-start;
+}
+
+.blogTitle {
+  margin-block: 5px;
+}
+
+
+
+.fullPostContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+
+.readMoreFull {
+  font-weight: 200;
+  font-size: 0.95em;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.readmoreFull {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid var(--text-color-secondary);
+  cursor: pointer;
+  max-width: 500px;
+  width: 100%;
+  align-self: center;
+}
+
+.readmoreFull:hover {
+  border-color: rgba(128, 125, 125, 0.634);
+  color: rgba(128, 125, 125, 0.886);
+}
+
+

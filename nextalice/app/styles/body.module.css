@@ -1,0 +1,266 @@
+:root{
+  --text-color-secondary: rgb(124, 100, 14);
+  --bg-color: rgb(243, 241, 234);
+}
+.sections {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+  
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  display: flex;
+
+
+}
+
+.backgroundText {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.5em;
+  flex: 1
+}
+
+.textContainer {
+  flex: 1;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.backgroundText p {
+  cursor: pointer;
+}
+
+.topImageContainer {
+  width: 100%;
+  height: 100%; /* Set a fixed height */
+  overflow: hidden; /* Ensures no overflow */
+  transform: translateZ(-10px) scale(2);
+}
+
+.imageTop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+
+}
+
+.imageText {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 100px;
+  z-index: 2000;
+  font-size: xx-large;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.overlayContent {
+  font-size: 3em;
+}
+
+.ttLeft {
+  color: white;
+  text-shadow: 0 0 5px black;
+  
+}
+
+.ttRight {
+  text-shadow: 0 0 5px white;
+  
+}
+
+.textContainerLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.textContainerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ttLeft, .ttRight {
+  padding-block: 1em;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.438);
+  backdrop-filter: blur(10px); /* The blur effect */
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.name {
+  color:var(--text-color-secondary);
+}
+
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-bottom: 50px;
+  margin-top: 2em
+}
+
+.postLineup {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.readMore {
+  font-weight: 200;
+  font-size: 0.95em;
+  cursor: pointer;
+}
+
+.readmore {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid var(--text-color-secondary);
+  cursor: pointer;
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.readmore:hover {
+  border-color: rgba(128, 125, 125, 0.634);
+  color: rgba(128, 125, 125, 0.886);
+}
+
+.seeMore {
+  cursor: pointer;
+  background-color: var(--bg-color);
+  padding: 10px;
+  width: 20vw;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 5em;
+  transition: background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+}
+
+.seeMore:hover {
+  background-color: rgb(235, 232, 232);
+  font-weight: 400;
+}
+
+.fashionLineup {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  width: 100%;
+  justify-content: center;
+  padding-block: 20px;
+}
+
+.fashions {
+  display: flex;
+  gap: 2;
+  overflow: flex;
+  padding-block: 10px;
+  margin-bottom: 3em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+}
+
+.fashionitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.aliceFashionworld {
+  align-self: center;
+}
+
+.fashionImage {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  border: 2px solid rgba(124, 100, 14, 0.632);
+  margin-bottom: -90px;
+}
+
+.fashionPrice {
+  position: relative;
+  bottom: 295.2px;
+  right: 96.5px;
+  padding: 3px;
+  border-radius: 7px;
+  background-color: rgba(124, 100, 14, 0.632);
+  color: white;
+}
+
+.fashionStatus {
+  position: relative;
+  bottom: -35px;
+  left: 77px;
+  background-color: rgba(255, 255, 255, 0.679);
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid rgba(15, 6, 54, 0.308);
+}
+
+.openStore {
+  align-self: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  flex: 1;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  padding-inline: 20px;
+  margin-top: 8em;
+}
+
+.signUp,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+
+}
