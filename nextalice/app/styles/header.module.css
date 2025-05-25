@@ -15,17 +15,9 @@
 
 .header {
   font-family: var(--font-primary);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
   background-color: var(--bg-color);
   color: var(--primary-color);
-  padding: var(--padding-header-auto);
-
   z-index: 100;
-  
 }
 
 
