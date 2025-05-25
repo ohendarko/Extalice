@@ -8,9 +8,12 @@ type BlogPageProps = {
   params: { id: string };
 };
 
-const BlogPage = ({ params }: BlogPageProps) => {
-  const blog = blogPost.find((b) => b.id === params.id);
+const BlogPage = async ({ params }: BlogPageProps) => {
 
+  const resolvedParams = await params;   // await here
+  const blog = blogPost.find((b) => b.id === resolvedParams.id);
+
+  // const blog = blogPost.find((b) => b.id === params.id);
   if (!blog) {
     return <NotFoundPage message="Blog Not Found" />;
   }
@@ -19,9 +22,13 @@ const BlogPage = ({ params }: BlogPageProps) => {
     <div className={styles.blogPage}>
       <div className={styles.blogContents}>
         <h1 className={styles.blogTitle}>{blog.title}</h1>
-        <p className={styles.blogContent}>{blog.content}</p>
+        <div className={styles.blogContent} dangerouslySetInnerHTML={{ __html: blog?.content}} />
+        
+        <div className='!bg-white'>
+          <ContactMe />
+        </div>
       </div>
-      <ContactMe />
+      
     </div>
   );
 };

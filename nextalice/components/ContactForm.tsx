@@ -55,7 +55,7 @@ const ContactForm = () => {
           </label>
         </div>
 
-        <div className="form-section">
+        <div className={styles.formSection}>
           <label className={styles.formField}>
             Email:
             <input type="text" name="email" value={formData.email} onChange={handleChange} required />
@@ -67,10 +67,13 @@ const ContactForm = () => {
           </label>
         </div>
 
-        <label className={styles.formField}>
-          Message:
-          <textarea name="message" value={formData.message} onChange={handleChange} required />
-        </label>
+        <div className={styles.formSection}>
+          <label className={styles.formField}>
+            Message:
+            <textarea name="message" value={formData.message} onChange={handleChange} required />
+          </label>
+        </div>
+
 
         <button className={styles.sendButton} type="submit">Send</button>
       </form>

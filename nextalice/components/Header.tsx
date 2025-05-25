@@ -33,6 +33,7 @@ const Header = () => {
       </div> */}
       {/* Desktop Nav */}
       <div className="hidden md:flex flex-row items-center justify-between w-full">
+        <h2 className="text-xl font-bold">EXTALICE</h2>
         <nav className={styles.headerItems}>
           <div className={styles.headerMenu}>
             <Link href="/"><h3>Home</h3></Link>
@@ -79,8 +80,8 @@ const Header = () => {
       </div>
 
        {/* Mobile Nav Toggle */}
-      <div className="flex md:hidden justify-end items-center w-full">
-        {/* <h2 className="text-xl font-bold">EXTALICE</h2> */}
+      <div className="flex md:hidden justify-between items-center w-full">
+        <h2 className="text-xl font-bold">EXTALICE</h2>
         <button onClick={toggleMenu}>
           {/* Mobile Menu Button */}
           {isOpen ? (

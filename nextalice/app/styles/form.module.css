@@ -3,12 +3,25 @@
   justify-content: center;
   align-items: center;
 } */
+
+.formContainer {
+  width: 95%;
+
+}
+
 .reachOut {
   margin-left: 0;
 }
-
+.reachMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* align-items: flex-start; */
+  padding: 0 !important;
+}
 .form, .forms {
-  width: clamp(60%, 500px, 90%);
+  width: clamp(60%, 500px, 100%);
   font-weight: 200;
   margin-bottom: 4em;
   font-size: 1.1em;
@@ -33,6 +46,7 @@
 }
 .formSection {
   display: flex;
+  padding-inline: 10px;
   align-items: center;
   justify-content: center;
   flex: 1;
@@ -84,4 +98,13 @@
 
 .followMe {
   margin-bottom: 2em;
+}
+
+.collabSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-bottom: 20px;
+  margin-right: 5px;
 }

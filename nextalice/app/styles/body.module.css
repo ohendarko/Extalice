@@ -22,9 +22,8 @@
   width: 100%;
   object-fit: cover;
   z-index: -1;
-  display: flex;
-
-
+  height: 300%;
+  top: -190px; /* Adjust this value to control the vertical position */
 }
 
 .backgroundText {
@@ -75,7 +74,7 @@
 }
 
 .overlayContent {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .ttLeft {
@@ -94,10 +93,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: rgba(255, 255, 255, 0.438);
+  /* background: rgba(255, 255, 255, 0.315);
   backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px); */
- 
+}
+
+.textContainerLeft svg {
+  stroke : white;
+  height: 55px;
+  width: 55px;
 }
 
 .textContainerRight {
@@ -126,6 +130,10 @@
 
 .name {
   color:var(--text-color-secondary);
+}
+
+.postHeading {
+  font-size: 2em;
 }
 
 .postContainer {
@@ -171,7 +179,6 @@
   cursor: pointer;
   background-color: var(--bg-color);
   padding: 10px;
-  width: 20vw;
   margin-top: 0;
   text-align: center;
   margin-bottom: 5em;
@@ -214,6 +221,7 @@
 
 .aliceFashionworld {
   align-self: center;
+  font-size: 1.5rem;
 }
 
 .fashionImage {
@@ -256,15 +264,16 @@
 .contacts {
   display: flex;
   flex: 1;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding-inline: 20px;
+  justify-content: flex-start;
+  padding: 5px;
   margin-top: 8em;
+  background-color: white;
 }
 
 .signUp,
-.contact-form {
+.contactForm {
   display: flex;
   flex-direction: column;
   flex: 1;

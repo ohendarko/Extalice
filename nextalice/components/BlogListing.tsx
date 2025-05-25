@@ -19,7 +19,7 @@ const BlogListing: React.FC<BlogListingProps> = ({ blog }) => {
   return (
     <div className={secStyles.postContainer} key={blog.id}>
       <h3 className={styles.blogTitle}>{blog.title}</h3>
-      <div className={styles.postContent}>{blog?.content.slice(0, 150)} . . . </div>
+      <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: blog?.content.slice(0, 150) + '. . .' }} />
       <div className={styles.readmore}>
         <Link href={`/blogs/${blog.id}`}>
           <span className={styles.readmoreFull}>Read more</span>

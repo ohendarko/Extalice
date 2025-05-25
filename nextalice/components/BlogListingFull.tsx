@@ -19,10 +19,11 @@ const BlogListingFull: React.FC<BlogListingProps> = ({ blog }) => {
     <>
       <div className={styles.fullPostContainer} key={blog.id}>
         <div className={styles.blogInfo}>
-        <h3 className={styles.blogTitle}>{blog.title} &nbsp;•&nbsp;</h3>
-        <h4 className={styles.blogAuthor}>{blog.author}</h4>
+        <h3 className={styles.blogTitle}>{blog.title} &nbsp;</h3>
+        {/* <h4 className={styles.blogAuthor}>{blog.author}</h4> */}
         </div>
-        <div className={styles.postContent}>{blog?.content.slice(0, 150)} . . . </div>
+        
+        <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: blog?.content.slice(0, 150) + '. . .' }} />
         <div className={styles.readmoreFull}>
           <Link href={`/blogs/${blog.id}`}>
             <span className={styles.readMoreFull}>Read more</span>

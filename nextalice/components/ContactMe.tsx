@@ -47,14 +47,16 @@ const ContactMe = () => {
         <h1 className={styles.signLatest}>Sign Up For My Latest</h1>
         <SignForm />
 
-        <h1 className={styles.collabs}>Collabs</h1>
-        <p className={styles.collabMessage}>
-          For PR and commercial enquiries please contact <a href="mailto:ohendarko@gmail.com" className={styles.emailKOD}>ohendarko@gmail.com</a>
-        </p>
+        <div className={styles.collabSection}>
+          <h1 className={styles.collabs}>Collabs</h1>
+          <p className={styles.collabMessage}>
+            For PR and commercial enquiries please contact <a href="mailto:ohendarko@gmail.com" className={styles.emailKOD}>ohendarko@gmail.com</a>
+          </p>
+        </div>
       </div>
 
-      <div className={styles.contactForm}>
-        <p className={styles.reachOut}>You can also reach out to me.</p>
+      <div className={styles.reachMe}>
+        <p className={`${styles.reachOut} mb-2`}>You can also reach out to me.</p>
         <ContactForm />
       </div>
     </div>
