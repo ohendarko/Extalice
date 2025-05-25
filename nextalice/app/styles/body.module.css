@@ -87,12 +87,16 @@
 .ttRight {
   text-shadow: 0 0 5px white;
   
+  
 }
 
 .textContainerLeft {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: rgba(255, 255, 255, 0.438);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); */
  
 }
 
@@ -100,7 +104,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  /* background: rgba(255, 255, 255, 0.438);
+  backdrop-filter: blur(20px); 
+  -webkit-backdrop-filter: blur(10px); */
+ 
 }
 
 .ttLeft, .ttRight {
@@ -113,7 +120,7 @@
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.438);
-  backdrop-filter: blur(10px); /* The blur effect */
+  backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
 }
 
