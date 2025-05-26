@@ -82,3 +82,29 @@
 }
 
 
+.pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.activePage {
+  background: #333;
+  color: white;
+}
+
+
