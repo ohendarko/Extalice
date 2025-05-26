@@ -598,22 +598,356 @@ const blogPosts = [
     title: "Man of Jesus Christ",
     author: "Alice Anane Tawiah",
     date: "2025-02-08",
-    content: "Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    content: `
+      <p>There is a friend of mine, I haven’t met a man so meek.</p><br>
+
+      <p>It’s one thing to admire someone from a distance, it’s another thing to get so close and still admire even more.</p><br>
+
+      <p>They say proximity reveals flaws, I say proximity only magnifies whatever there is.</p><br>
+
+      <p>In microscopy, focusing a lense will give a better view of whatever object you want to examine. The thing may be minute from a distance but focusing a lens with the right magnification gives you the view you need.</p><br>
+
+      <p>So proximity doesn’t necessarily reveal flaws, it reveals details, even the minutest ones that can easily be ignored by a distant admirer.</p><br>
+
+      <p>This friend I am talking about, when I got closer, I was challenged.</p><br>
+
+      <p>Exposure does a lot to the naive you know. Depending on ones state of heart, how teachable one can be, exposure can do a lot.</p><br>
+
+      <p>Exposure may challenge one to do better</p><br>
+
+      <p>Exposure may intimidate others</p><br>
+
+      <p>Exposure may embarrass others</p><br>
+
+      <p>Whatever exposure does to you depends on your state of heart.</p><br>
+
+      <p>When I met this friend of mine, that exposure provoked me, not in a good way at first. It triggered my insecurities and I felt He was too good to be true. How patient He is, How MEEK he is. Even when it was obvious that people were taking advantage of His generosity because He is a really great giver. I will point out people’s ulterior motives to exploit his generosity thinking he may be naive to notice, He will smile at me and tell me “ I know Alice, but as long as I have, I will continue to give”</p><br>
+
+      <p>This baffled me. This and many other things I learned from Him. I had read about the man Jesus, but from the people I have encountered so far in little years on earth, He is the person that is closest to the character of Jesus, so I call Him Man of Jesus Christ.</p><br>
+
+      <p>They say we are the Bible the world read. One’s character can convert unbelievers so we should let our light shine before men.</p><br>
+
+      <p>Normally, when this is mentioned, we think of unbelievers. But have you thought of struggling believers?</p><br>
+
+      <p>Apart from having a great report before unbelievers, have you thought about how you inspire and encourage other Christians to be better?</p><br>
+
+      <p>This evening, after a stressful day after work and other personal rounds, getting home, I felt I needed to reward myself with my favorite Netflix series “ The Good Doctor”</p><br>
+
+      <p>I had not read my Bible today and when I picked my phone “ I asked myself, will sister S do this?”</p><br>
+
+      <p>This is a sister I admire from church. She challenges me, she inspires me. I knew the answer is No. Then I quickly sat up and did the needful.</p><br>
+
+      <p>What am I saying is that, people have been praying for an encounter, that the word comes alive to them, and you are the answer to their cry.</p><br>
+
+      <p>The struggling believer may not get mysteries and “reve” when He reads the Bible but He sees YOU.</p><br>
+
+      <p>People may not have met Jesus when He walked on the face of the earth, neither have they had a face-to-face encounter with Him but they see YOU.</p><br>
+
+      <p>Are you that friend?</p><br>
+
+      <p>Are you the friend that just the thought of you challenges people to sit up?</p><br>
+
+      <p>Maybe its time to stop being selfish, people are looking up to you. You are a custodian, you came as an answer to many cries. Take your post.</p><br>
+
+      <p>There are invisible eyes looking at you for hope, that one can take a stand for Jesus, that Purity is Possible, and that one can win by righteousness.</p><br>
+
+      <p>Maybe the cloud of witnesses are not just in the clouds, some are here in the Church, cheering you on. Waiting on your win so that they will believe it is also possible for them.</p><br>
+
+      <p>Because of these great cloud of witnesses, we will run with endurance and not be complacent, till our bodies look like Jesus, our breath smells Jesus, till Jesus is proclaimed on the rooftop.</p><br>
+
+      <p>And since we have received such a great ministry, WE FAINT NOT.</p><br>
+
+      <p>Be that friend.</p><br>
+
+      <p>“and let us consider [thoughtfully] how we may encourage one another to love and to do good deeds,”</p><br>
+
+      <p>Hebrews 10:24 AMP</p><br>
+
+      <p>“Therefore we also, since we are surrounded by so great a cloud of witnesses, let us lay aside every weight, and the sin which so easily ensnares us, and let us run with endurance the race that is set before us,”</p><br>
+
+      <p>Hebrews 12:1 NKJV</p><br>
+      <br>
+
+      <p>By Grace,</p><br>
+
+      <p>The LORD’s Lady In Rest</p><br>
+
+    `
   },
   {
-    id: "10",
-    title: "Understanding Asynchronous JavaScript",
-    author: "Olivia Taylor",
-    date: "2025-02-05",
-    content: "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
+    id: "God-of-behind-the-scenes",
+    title: "God of Behind The Scenes",
+    author: "Alice Anane Tawiah",
+    date: "2025-02-24",
+    content: `
+      <p>Have you admired a preacher ministering before? Our Jesus Glorifies and He decorates His people with beauty, so its not surprising to admire his servants.</p><br>
+
+      <p>You will see a man of God ministering and you can’t but admire the decorum. From the Excellency in presentation to the very beautiful suit He is wearing. God is excellent and He must be communicated excellently.</p><br>
+
+      <p>Have you also encountered a preacher with poor countenance, from the appearance to presentation such that it affects the reception regardless of the anointing behind the ministration?</p><br>
+
+      <p>This highlights the beauty of excellence and details. If excellence can affect reception then whatever work that must be put to achieve it is worth it. Excellence is not achieved on a silver platter. Consistent work is invested to achieve it. Sometimes, it requires collaborative input.</p><br>
+
+      <p>Normally when we are applauding an excellent man, we focus just on Him. Noone really considers his support system. Men who toil behind the scenes in collaboration with Him to produce the excellence that is admired.</p><br>
+
+      <p>Well… let’s focus on the first scenario, the one with the beautiful suit. When you witness such, do you think about the tailor who made the suit? Or the one who ironed it nicely?</p><br>
+
+      <p>That is human nature, we only recognize what is outdoored, the flamboyance and ornateness, we don’t really pay attention to the work that was invested or whatever happened behind the scene, we only celebrate the results.</p><br>
+
+      <p>But God is not like that. He doesn’t just celebrate results, He also acknowledges process. That is why to God, the means is as important as the end. You can’t give God anything and He will ignore how the thing is made, the heart behind it. God is that deep, He is not superficial like humans.</p><br>
+
+      <p>This is to our advantage because due to this attribute of God, everyone who plays any part is rewarded and not just those in the spotlight. The tailor who made the beautiful suit the man of God is wearing is seen by God and He is a rewarder.</p><br>
+
+      <p>Have you ever come to church and wondered who cleaned the chair you are sitting on? We only celebrate the seen and do not concern ourselves with the faceless and nameless people whose sacrifices have made the service a success but God sees.</p><br>
+
+      <p>“And Abraham ran to the herd, took a tender and good calf, gave it to a young man, and he hastened to prepare it.” Genesis 18:7 NKJV</p><br>
+
+      <p>A young man…</p><br>
+
+      <p>We don’t get to know His name. But He played a very crucial role. God will be not unfair to only acknowledge the one who brought the food. Even though it was at Abraham’s command, it takes a village.</p><br>
+
+      <p>From this text, we don’t even get the name of the young man who killed the sheep, but God knows. And it isn’t only Abraham and Sarah who will be blessed, at the set time when God visits them with His reward, He will not be left behind. God is not unjust.</p><br>
+
+      <p>“For God is not unjust to forget your work and labor of love which you have shown toward His name, in that you have ministered to the saints, and do minister.” Hebrews 6:10 NKJV</p><br>
+
+      <p>This is to encourage someone out there. To my Brethren who go to sweep and mop church auditorium. To those who run incessant errands for men of God. To those who intercede for them in secret. To those who simply share a link or invite someone to church. God sees them all, He will reward everyone accordingly.</p><br>
+
+      <p>He is not just God of the spotlight, He is also God of behind the scenes.</p><br>
+
+      <p>Same way, no matter how great of a mandate one carries, one needs people who will believe in Him and help herald it. Every Paul needs a Timothy.</p><br>
+
+      <p>May God help us to remain faithful even if we are not celebrated by Men.</p><br>
+      <br>
+
+      <p>By Grace,</p>
+      <p>The LORD’s Lady In Rest</p><br>
+
+    `
   },
   {
-    id: "11",
-    title: "Deploying Applications with Docker",
+    id: "love-broke-me",
+    title: "Love Broke Me",
+    author: "Alice Anane Tawiah",
+    date: "2025-02-22",
+    content: `
+      <p>I know we are familiar with the story of the fig tree. The tree that looked so green that it deceived even Jesus, that it might as well have so much fruit.</p><br>
+
+      <p>If you have fallen for the deception of a fig tree, don’t beat yourself up because even Jesus fell for it.</p><br>
+
+      <p>The title of today’s blog may sound intriguing because love from 1 Corinthians 13 doesn’t break. Wholesome love makes one whole, it heals, it binds. And love is wholesome so what broke you?</p><br>
+
+      <p>Well.. We may have fallen for the deception of what looks like but not exactly. What looks like the original but not.</p><br>
+
+      <p>There is a lady I am profoundly drawn to. I came across her reel and she briefly said, the first time she loved, the love broke her. So she coiled into Abbah’s arms with the little pieces of her heart and made a vow that love will no longer make a fool of her and if anyone will tell her He loves her, she will plaster a vacant smile across her face, pour out an empty gratitude and gift them her absence.</p><br>
+
+      <p>I smiled.</p><br>
+
+      <p>I smiled out of empathy because I know how it feels to be broken by love.</p><br>
+
+      <p>My first attempt at love left me in pieces, sometimes when I recall I burst into laughter, even now.</p><br>
+
+      <p>The second attempt looked like a haven, like the fig tree, it looked promising until I got close. What promised me safety now turned to murder grounds. The murder of my heart and my very life.</p><br>
+
+      <p>It left me so shuttered that I became a walking corpse, I wouldn’t feel my body and each night I go to bed, I whispered to Abbah, “Let this be the last night, I don’t want to see the day”</p><br>
+
+      <p>I’m the one writing now so yeah, I didn’t die.  
+      Love…..Love</p><br>
+
+      <p>I have learnt that love can only be safe if it’s in its right elements.</p><br>
+
+      <p>Jesus said if you love me, obey my commandment.</p><br>
+
+      <p>Jesus had been speaking of His love for us, but when it came to our love for Him, it was coupled with instructions, conditions. When He asked Peter if He loves Him, He attached an instruction; tend my sheep. It means one cannot trust any human love until these conditions are met or unless it's in the context of OBEDIENCE.</p><br>
+
+      <p>I know everyone here has a peculiar walk with Jesus, so I am addressing such audience. People who are consecrated and the voice of Jesus is the big deal in their lives.</p><br>
+
+      <p>And in effect, I know we won’t be unequally yoked, as in love someone who isn’t a believer or isn’t at par in consecration.</p><br>
+
+      <p>So I am not talking about loving an unbeliever or someone who doesn’t speak our language of consecration.</p><br>
+
+      <p>I am talking about loving someone who ticks all the boxes in our sight, a fig tree let’s say.</p><br>
+
+      <p>Now that we have established that the person we may be drawn to is a lover of Jesus just like us, why would loving a brother or sister break us?</p><br>
+      <br>
+
+      <p>OBEDIENCE</p><br>
+
+      <p>Obedience is a guardrail not a restrictive fence. For He who breaks the fence, a serpent will bite. It means whatever that is out there, you are being protected from and you are not missing out on anything if you don’t get to experience it.</p><br>
+
+      <p>Sometimes, someone may be the ‘will of God’ for you but the timing may be wrong. You may go ahead of God. I know someone who received an instruction to date at 23 year, He did at 21 to the same person and it failed miserably. We don’t miss out on God’s will only when we don’t get to be with them but we can also miss out on God’s will when we be with them at the wrong time. God prepares before placement so that you don’t go and meet His will in ruins. You will not enjoy it. It will be like a fig tree.</p><br>
+
+      <p>So if you really want to enjoy love, align with God. Seek His face thoroughly and have a willing heart to obey no matter what His answer is.</p><br>
+
+      <p>Also, don’t trust anyone more than the voice of God. Sometimes people look so safe and we may not understand why God will ask us to stay away from them, but trust. Trust God more than anyone, more than how harmless people may seem.</p><br>
+
+      <p>And if you are asked to let Lot go, it may be difficult and inconveniencing, but a wise man once said “if you think obedience is expensive, try disobedience.”</p><br>
+
+      <p>Trust me, disobedience is that costly. Please obey.</p><br>
+      <br>
+
+      <p><strong>VIOLATION OF PRINCIPLES</strong></p><br>
+
+      <p>My father in the LORD, Apostle Joseph Mintah says, the foundation of a godly relationship is purity, interdependence and freewill. Any relationship that violates these principles will break you.</p><br>
+
+      <p>1. <strong>Purity</strong>; Love will not defile you. Love will honor and protect you. A love that breaks is not just love that eventually leaves you but love that raids you of virtue. Love should build and not destroy. True love should be willing to wait, true love upholds your dignity.</p><br>
+
+      <p>2. <strong>Interdependence</strong>; The hallmark of a healthy relationship is interdependence. Not dependence or independence. You need each other in a healthy way not throwing your weight on one another, nor overburdening one another with our weight. In a healthy relationship, there should be emotional regulation and no one should be responsible for one's emotions. Relationship should service the needs of both parties without draining each other.</p><br>
+
+      <p>3. <strong>Freewill</strong>; One should wholeheartedly want to be in a relationship with you. No one should be cajoled into a relationship with “God said you are my wife”. No one should be compelled to be or remain in a relationship with one by using emotional blackmail.</p><br>
+      <br>
+
+      <p><strong>HEAL BEFORE YOU DEAL</strong></p><br>
+
+      <p>This is a copied statement from Ps Kingsley Okonkwo.</p><br>
+
+      <p>Many people carry trauma, unhealed hurts, and unmet needs of the soul into a relationship and they end up bleeding on someone who didn’t wound them. Such a relationship will be dysfunctional and will leave you more broken and the cycle of pain will continue if care is not taken. Some people need to take a break from relationships and allow the Holy Spirit to do deep work of healing in them. Else insecurity will affect your reception of love, you cannot accept sincere love and you cannot recognise sincere love. You may find yourself in a vicious cycle of toxic relationships.</p><br>
+
+      <p>Take note.</p><br>
+
+      <p>If these things are not in place, the most genuine person may come off as a fig tree.</p><br>
+
+      <p>So the fig tree doesn’t just connote an insincere person, but wrong conditions (e.g.; timing). You remember I mentioned pure love comes with conditions that are instructions from God e.g. “go ahead”. A person may be sincere and all, but if after seeking God’s face, you don’t get a yes and you still lean on your own understanding, you will meet a fig tree.</p><br>
+
+      <p>Don’t take a step without a big yes from God, it will break you. He sees the end from the beginning, don’t be with any “good” person God cannot vouch for. It’s not every good person that is good for you.</p><br>
+
+      <p>And be in step with the Spirit so that the Holy Spirit can update you in case their heart changes towards you and be quick to obey when He does.</p><br>
+
+      <p>This will be easier if we don’t form idols in our hearts with them.</p><br>
+      <br>
+
+      <p><strong>A Call To Trust His Voice</strong></p><br>
+
+      <p>Let us come to the realization that HIS voice is worthy of our trust. And He is not a killjoy. He made love and He wants us to enjoy safe and wholesome love but we must trust Him. A very good friend of mine loves saying this “For He whose name is love will send the best, but faith must have a deeper rest.”</p><br>
+
+      <p>Faith goes with obedience, rest that He will give you a good and perfect gift so don’t be afraid to let Lot go.</p><br>
+
+      <p>Let healing streams flow out of this piece and let the broken receive wholeness. To the broken, I send my love and hugs and I come to announce that joy is coming. But this time around, we are doing it with Jesus. We are not going till He says so no matter how safe the prospect looks.</p><br>
+
+      <p>Grace to trust and obey.</p><br>
+
+      <p>God bless you.</p><br>
+      <br>
+      <p>By Grace,</p>
+
+      <p>The LORD’s Lady In Rest</p><br>
+
+    `
+  },
+  {
+    id: "grace-has-a-grace-period",
+    title: "Grace Has A Grace Period",
+    author: "Alice Anane Tawiah",
+    date: "2025-02-21",
+    content: `
+    <p>In 2020, the Holy Spirit ran a series on Mercy and Grace with me. I got to understand the peculiarities of these divine commodities.</p><br>
+    <br>
+
+    <p><strong>Mercy.</strong></p><br>
+
+    <p>He told me mercy is a universal currency in the realm of the Spirit, you can use it to buy ANYTHING from God. He also told me, Mercy is the only attribute of God that speaks of His sovereignty. Like Mercy and Sovereignty are twins. It is only mercy that spells out how God cannot be bound by any restrictions, HE WILL HAVE MERCY ON WHOM HE DELIGHTS TO, HE CAN PARDON WHOM HE DECIDES and who can question Him?</p><br>
+
+    <p>“For He says to Moses, “I will have mercy on whomever I will have mercy, and I will have compassion on whomever I will have compassion.”<br>Romans 9:15 NKJV</p><br>
+
+    <p>God is just, and He has set systems into place as boundary and standard in the affairs of the sundry. He rules in the affairs of men with these precepts and even in the unseen, He remains just adhering to laws He has set into place. But in the provision of Mercy, these can be overlooked to favor one.</p><br>
+
+    <p>“….Mercy triumphs over judgment.”<br>James 2:13b NKJV</p><br>
+
+    <p>Mercy always gives birth to favor. Mercy always gives birth to speed. Mercy can instruct time, such that chronos can become Kairos; set time.</p><br>
+
+    <p>“You will arise and have mercy on Zion; For the time to favour her, Yes, the set time, has come.”<br>Psalms 102:13 NKJV</p><br>
+    <br>
+
+    <p><strong>Grace.</strong></p><br>
+
+    <p>On Grace, I learnt that it is the most abundant commodity for the believer. It so sufficient yet abundant. It exceeds the believers needs. Whenever God calls the believer unto an assignment He gives more Grace than the Person requires for the assignment, hence “ Grace is always greater than the price of the calling”. If there is any allocation in God that the believer can feel entitled to, it is Grace. It’s like it is your right. Even the throne is called Grace and the first contact the believer makes when we become saved is Grace.</p><br>
+
+    <p>But Grace and Mercy are not the same. One cannot presume on mercy. We MAY obtain mercy but we WILL find Grace for Help. God decides to show mercy, We find Grace.</p><br>
+
+    <p>“Let us therefore come boldly to the throne of grace, that we may obtain mercy and find grace to help in time of need.”<br>Hebrews 4:16 NKJV</p><br>
+
+    <p>So permit me to say that Mercy is more powerful than Grace. But acquisition of Grace is more certain.</p><br>
+
+    <p>Now, despite the abundance of Grace. It has a Grace period; thus expiry date. As a writer, I have witnessed this so many times. There are seasons when instructions come and Grace to obey accompanies these instructions. Though the instructions may linger, Grace will not. Thus, if you do not obey promptly, it will be very difficult to do so later.</p><br>
+
+    <p>There are times I feel the inspiration to write on a particular topic, I will postpone it to later, only for later to come and I feel so dry and no words will flow. What happened to the Grace? That ease, that enablement to do it has left…</p><br>
+    <br>
+
+    <p><strong>A Call for Prompt Obedience</strong></p><br>
+
+    <p>God is telling you something now, the Grace for that thing is now, it is now that it is easier to obey, the more you delay the more it will become difficult and the more your heart will be hardened with excuses.</p><br>
+
+    <p>“again He designates a certain day, saying in David, “Today,” after such a long time, as it has been said: “Today, if you will hear His voice, Do not harden your hearts.”<br>Hebrews 4:7 NKJV</p><br>
+
+    <p>When God gave Abraham the Instruction to offer Isaac, the Bible says He arose at dawn outrightly to execute it. It doesn’t mean it wasn’t difficult for Him, but it would have been more difficult if He had said He wants to spend a week more with His beloved son before He releases Him to the LORD.</p><br>
+
+    <p>“So Abraham rose early in the morning and saddled his donkey, and took two of his young men with him, and Isaac his son; and he split the wood for the burnt offering, and arose and went to the place of which God had told him.”<br>Genesis 22:3 NKJV</p><br>
+
+    <p>This is a call to instant obedience. I am not saying as soon as you hear any voice then you set off like a tornado. No, you can inquire for clarity before launching. But you know the voice of God. You know it. His sheep knows His voice and you’re His. You know when you are sure it’s His voice but you want to linger with the excuse that you want to make sure its His voice. Don’t deny His voice. This is a call to prompt and thorough obedience, before Grace fades out. There will always be a valid reason to linger, but it is now that you’re hearing His voice. Do not harden your heart. His voice requires your prompt response.</p><br>
+
+    <p>And in your sincerity of hearts, if you attempt anything with the intention of obeying God and it turns out it was your mind, God still counts it as obedience, He will honour it. It is better to obey and find out it was not God than to linger and find out later it was God.</p><br>
+
+    <p>God have mercy on us.</p><br>
+    <br>
+
+    <p>By Grace,<br>The LORD’s Lady In Rest</p><br>
+
+    `
+  },
+  {
+    id: "too-far-for-touch",
+    title: "Too Far For Touch",
+    author: "Alice Anane Tawiah",
+    date: "2025-02-17",
+    content: `
+      <p>I had heard so much about Joyce Meyer, the highlight being how she was molested by her own father.</p><br>
+      <p>However, on this particular day, listening to her, I heard something new.</p><br>
+
+      <p>SHE HAD SURVIVED BREAST CANCER. My jaw dropped in shock. In another message, she made mention of how her biological brother who used to be a drug addict committed suicide. I was like this Woman has indeed been through a lot.</p><br>
+
+      <p>I mean she came from a very toxic background, imagine being molested in an environment you were supposed to feel safe. Her Mum knew but acted ignorant. Where else does she run to? She married later on and the story wasn’t different. The marriage ended and misery turned her into a smoke addict. Tragic isn’t it?</p><br>
+
+      <p>I was thinking about her story, the family history of incest, suicide, addiction to hard drugs, emotional torture and yet look at her! I used to fuss over my own situation. That my background is too far deep into iniquity I felt I needed to drink the entire ocean to be completely delivered. I felt I came from a dysfunctional background so my trauma responses should be tolerated but I looked at Joyce Meyer and I asked myself, what is my excuse?</p><br>
+
+      <p>Even if your mum is a fetish priestess, it will interest you to know that it’s too easy for you to walk in total freedom. You were married to a river? A throne? Apostle James Kawalya was born in a shrine, was breast-fed by a snake, was into homosexuality, He was a hard-core assassin with no iota of compassion but guess what? He is now an Apostle of the almighty God, raiding hell.</p><br>
+
+      <p>What then is your situation? You were born in hell? You are a product of incest or you haven’t seen a holy matrimony in your family before? It will interest you to know that it is not too deep for reach.</p><br>
+
+      <p>You come from a demonic background, the devil is so wicked but guess what? God is more kind! The devil hates you so much, but God loves you more than the devil hates you! Let the devil do all his gimmicks, the Spirit of the LORD ALWAYS lift up a standard against him!</p><br>
+
+      <p>“……..When the enemy comes in like a flood, The Spirit of the Lord will lift up a standard against him.”<br>Isaiah 59:19b NKJV</p><br>
+
+      <p>Let the host of hell surround you in attempt to eat your flesh, you will not be afraid, even in this you will be confident. Why? Because perfect love casts out fear. We can confidently trust his love therefore we have boldness in judgment.</p><br>
+
+      <p>“When the wicked came against me To eat up my flesh, My enemies and foes, They stumbled and fell. Though an army may encamp against me, My heart shall not fear; Though war may rise against me, In this I will be confident.”<br>Psalms 27:2-3 NKJV</p><br>
+
+      <p>There is no fear in love; but perfect love casts out fear, because fear involves torment. But he who fears has not been made perfect in love.”</p><br>
+
+      <p>“Love has been perfected among us in this: that we may have boldness in the day of judgment; because as He is, so are we in this world.”<br>I John 4:18,17 NKJV</p><br>
+
+      <p>Jesus did such a deep work. His intestines were gushing out, he was disfigured after the scourge by the pillar and after that, He was made to carry a 300kg crossbeam to how many miles naked? And after all these, it is still not enough? You have no score to settle. It is done He said. Love made Him do that for you, and there is no wall He won’t kick down for you. There is no darkness He won’t light and come for you. You are not too far for touch. His love can reach you.</p><br>
+
+      <p>“He who did not spare His own Son, but delivered Him up for us all, how shall He not with Him also freely give us all things? Who shall bring a charge against God’s elect? It is God who justifies. Who is he who condemns? It is Christ who died, and furthermore is also risen, who is even at the right hand of God, who also makes intercession for us.”<br>Romans 8:32-34 NKJV</p><br>
+
+      <p>“having wiped out the handwriting of requirements that was against us, which was contrary to us. And He has taken it out of the way, having nailed it to the cross. Having disarmed principalities and powers, He made a public spectacle of them, triumphing over them in it.”<br>Colossians 2:14-15 NKJV</p><br>
+
+      <p>You can be free from bondage, brokenness, mental torture, low self esteem, sickness and oh, you will marry so well!</p><br>
+
+      <p>Please make time and watch the Passion of Christ, this time round, by the spirit.</p><br>
+
+      <p>Be free.</p><br>
+      <br>
+
+      <p>By God’s Grace,<br>The LORD’s Lady In Rest.</p><br>
+
+    `
+  },
+  {
+    id: "13",
+    title: "Template",
     author: "William Harris",
     date: "2025-02-02",
     content: "Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla quis lorem ut libero malesuada feugiat."
-  }
+  },
 ];
 
 export default blogPosts;
