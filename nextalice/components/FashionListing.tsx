@@ -1,11 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '@/app/styles/body.module.css'
+import { StaticImageData } from 'next/image';
 
 type FashionItem = {
-  url: any;
+  url: string | StaticImageData;
   status: string;
-  price: string | number; // adjust as needed
+  price: string | number;
 };
 
 interface FashionListingProps {
