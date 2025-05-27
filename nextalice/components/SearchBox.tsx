@@ -22,13 +22,16 @@ const SearchBox = () => {
         <div className={styles.search}>
           <Input
             type="text"
-            placeholder="Search blog..."
+            placeholder="Search"
             className={styles.searchBox}
             value={query}
             onChange={(e) => {
               setQuery(e.target.value)
-              setOpen(e.target.value.length > 0)
+							// setOpen(true);
             }}
+						onFocus={() => setOpen(true)}
+  					onBlur={() => setTimeout(() => setOpen(false), 150)}
+						
           />
           <button aria-label="Search" className={styles.searchButton}>
             <svg className={styles.searchIcon} xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48">
@@ -42,8 +45,12 @@ const SearchBox = () => {
           <CommandGroup heading="Blog Posts">
             {filteredPosts.length > 0 ? (
               filteredPosts.slice(0, 3).map((post, index) => (
-                <CommandItem key={index} onSelect={() => setOpen(false)}>
-                  <Link href={`/blog/${post.id}`} className="w-full">
+                <CommandItem key={index}>
+                  <Link
+										href={`/blogs/${post.id}`}
+										className="w-full"
+										onMouseDown={(e) => {e.preventDefault(); }}
+									>
                     {post.title}
                   </Link>
                 </CommandItem>
