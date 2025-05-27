@@ -9,8 +9,7 @@ import BlogListing from '@/components/BlogListing';
 import FashionListing from '@/components/FashionListing';
 import ContactMe from '@/components/ContactMe';
 import Image from 'next/image';
-import { ShoppingCart } from 'lucide-react'; // modern React icons
-import { PencilLine } from 'lucide-react';
+
 
 
 const Body = () => {

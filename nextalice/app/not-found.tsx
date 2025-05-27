@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import Link from 'next/link';
+
 import { FaExclamationTriangle } from 'react-icons/fa';
 import styles from "@/app/styles/fourofour.module.css";
 import { useRouter } from 'next/navigation';

@@ -1,7 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import styles from '@/app/styles/header.module.css';
-import { icons } from '@/constants';
 import Link from 'next/link';
 import '../app/globals.css'
 import SearchBox from './SearchBox';
@@ -34,14 +33,13 @@ const Header = () => {
       </div> */}
       {/* Desktop Nav */}
       <div className="hidden md:flex flex-row items-center justify-between w-full">
-        <h2 className="text-xl font-bold">EXTALICE</h2>
+        <Link href="/" className="text-xl font-bold">EXTALICE</Link>
         <nav className={styles.headerItems}>
           <div className={styles.headerMenu}>
-            <Link href="/"><h3>Home</h3></Link>
-            <Link href="/blogs"><h3>Blog</h3></Link>
-            <Link href="/shop"><h3>Shop</h3></Link>
-            <Link href="/about"><h3>About</h3></Link>
-            <Link href="#contact-me"><h3>Contact</h3></Link>
+            <Link href="/blogs">Blog</Link>
+            <Link href="/shop">Shop</Link>
+            {/* <Link href="/about">About</Link> */}
+            <Link href="#contact-me">Contact</Link>
           </div>
 
           <SearchBox />
