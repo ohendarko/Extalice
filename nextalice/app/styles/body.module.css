@@ -1,7 +1,4 @@
-:root{
-  --text-color-secondary: rgb(124, 100, 14);
-  --bg-color: rgb(243, 241, 234);
-}
+
 .sections {
   position: relative;
   display: flex;
@@ -129,7 +126,7 @@
 }
 
 .name {
-  color:var(--text-color-secondary);
+  color:rgb(124, 100, 14);
 }
 
 .postHeading {
@@ -147,7 +144,7 @@
 .postLineup {
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-color);
+  background-color: rgb(243, 241, 234);
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -165,7 +162,7 @@
   justify-content: center;
   margin-top: 5px;
   padding: 5px;
-  border: 1px solid var(--text-color-secondary);
+  border: 1px solid rgb(124, 100, 14);
   cursor: pointer;
   transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -177,7 +174,7 @@
 
 .seeMore {
   cursor: pointer;
-  background-color: var(--bg-color);
+  background-color: rgb(243, 241, 234);
   padding: 10px;
   margin-top: 0;
   text-align: center;
@@ -194,7 +191,7 @@
   margin-top: 80px;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-color);
+  background-color: rgb(243, 241, 234);
   width: 100%;
   justify-content: center;
   padding-block: 20px;

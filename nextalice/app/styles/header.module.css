@@ -1,23 +1,8 @@
-:root {
-
-    --padding-header-auto: 10px;
-    --svg-fill-one: white;
-    --svg-fill-two: #161622;
-    --icon-height-width: 24px;
-    --icon-opacity: 0.8;
-    --font-weight-regular: 200;
-    --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    --footer-bg: #1a1a1a;
-    --bg-color: rgb(243, 241, 234);
-    --text-color-secondary: rgb(124, 100, 14);
-  }
-
 
 .header {
-  font-family: var(--font-primary);
-  background-color: var(--bg-color);
-  color: var(--primary-color);
+  font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;;
+  background-color: rgb(243, 241, 234);
+  color:  #161622;
   z-index: 100;
 }
 
@@ -29,7 +14,7 @@
 
 
 .headingText{
-  font-family: var(--font-roboto);;
+  font-family: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 300 !important;
 }
 
@@ -66,7 +51,7 @@
   display: flex;
   align-items: center;
   border-width: 1px;
-  border-color: var(--primary-color);
+  border-color: #161622;
   border-style: solid;
   padding: 5px;
   padding-inline: 15px;
@@ -74,11 +59,11 @@
 }
 
 .searchBox{
-  color: var(--primary-color);
-  background-color: var(--bg-color);
+  color: #161622;
+  background-color: rgb(243, 241, 234);;
   border: none;
-  font-family:var(--font-primary);
-  font-weight: var(--font-weight-regular);
+  font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 200;
   font-size: 15px;
 }
 
@@ -88,12 +73,12 @@
   object-fit: contain;
   margin-left: 5px;
   cursor: pointer;
-  fill: var(--primary-color);
+  fill: #161622;
 }
 
 .searchIcon:hover {
-  height: var(--icon-height-width);
-  width: var(--icon-height-width);
+  height: 24px;
+  width: 24px;
   opacity: 0.8;
 }
 
@@ -102,9 +87,9 @@
 }
 
 .searchButton:hover {
-  background-color: var(--primary-color);
-  color: var(--svg-fill-one);
-  border-color: var(--text-color-secondary);
+  background-color: #161622;
+  color: white;
+  border-color: rgb(124, 100, 14);
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -120,7 +105,7 @@
 }
 
 .socialIcon svg {
-  fill: var(--svg-fill-two);
+  fill: #161622;
   transition: fill 0.3s ease-in-out;
   height: 40px;
   width: 40px;

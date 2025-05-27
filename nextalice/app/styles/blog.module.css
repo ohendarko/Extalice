@@ -1,7 +1,3 @@
-:root{
-  --text-color-secondary: rgb(124, 100, 14);
-  --bg-color: rgb(243, 241, 234);
-}
 
 .blogPage {
   display: flex;
@@ -38,7 +34,7 @@
   align-self: flex-start;
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: var(--text-color-secondary);
+  color: rgb(124, 100, 14);
   font-weight: 600;
 }
 
@@ -69,7 +65,7 @@
   justify-content: center;
   margin-top: 5px;
   padding: 5px;
-  border: 1px solid var(--text-color-secondary);
+  border: 1px solid rgb(124, 100, 14);
   cursor: pointer;
   max-width: 500px;
   width: 100%;
