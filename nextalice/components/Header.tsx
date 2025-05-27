@@ -103,7 +103,10 @@ const Header = () => {
                 <Link href="#contact-me"><h3>Contact</h3></Link>
               </div>
 
-              <SearchBox />
+              <div className='mb-2'>
+                <SearchBox />
+              </div>
+
 
               <div className={styles.socials}>
                 <div className={`${styles.instagram} ${styles.socialIcon}`}>
