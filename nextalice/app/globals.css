@@ -107,10 +107,10 @@ textarea:focus {
 }
 
 
-.dark-mode {
+/* .dark-mode {
   --bg-color: black;
   --text-color: white;
-}
+} */
 
 /* Width and height */
 ::-webkit-scrollbar {
