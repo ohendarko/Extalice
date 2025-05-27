@@ -8,3 +8,39 @@
   align-self: flex-end;
   text-align: center;
 }
+
+
+
+.socialMediaLinks {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center align the items */
+}
+
+.socialMediaLinks li {
+  margin: 0 10px; /* Margin between each icon */
+}
+
+.socialMediaLinks a {
+  color: #fff; /* Icon color */
+  font-size: 24px; /* Icon size */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.socialMediaLinks a:hover {
+  color: #6bb9eb; /* Change icon color on hover */
+}
+
+.socialMediaLinks svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: #fff;
+  transition: fill 0.3s;
+}
+
+.socialMediaLinks a:hover svg {
+  fill: rgb(251, 215, 84);
+}
