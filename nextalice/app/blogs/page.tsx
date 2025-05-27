@@ -1,6 +1,6 @@
 'use client';
 
-import React, { Suspense, useState } from 'react';
+import React, { Suspense } from 'react';
 import BlogsPage from './BlogsPage';
 import Spinner from '@/components/Spinner';
 
