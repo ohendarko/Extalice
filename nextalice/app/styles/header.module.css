@@ -10,6 +10,7 @@
     --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --footer-bg: #1a1a1a;
     --bg-color: rgb(243, 241, 234);
+    --text-color-secondary: rgb(124, 100, 14);
   }
 
 
@@ -18,6 +19,11 @@
   background-color: var(--bg-color);
   color: var(--primary-color);
   z-index: 100;
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.496);
+  transition: box-shadow 0.3s ease;
 }
 
 
@@ -89,6 +95,17 @@
   height: var(--icon-height-width);
   width: var(--icon-height-width);
   opacity: 0.8;
+}
+
+.searchButton {
+  border-radius: 50%;
+}
+
+.searchButton:hover {
+  background-color: var(--primary-color);
+  color: var(--svg-fill-one);
+  border-color: var(--text-color-secondary);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .searchBox:focus {
