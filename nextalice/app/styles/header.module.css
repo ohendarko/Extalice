@@ -87,7 +87,7 @@
 }
 
 .searchButton:hover {
-  background-color: #161622;
+  background-color: rgb(243, 241, 234);
   color: white;
   border-color: rgb(124, 100, 14);
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
