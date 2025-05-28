@@ -27,21 +27,22 @@
   
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #9d9b9b;
-    --foreground: #e6dfdf;
-    --primary-color: #161622;
-    --primary-dark: #0f0f1b;
-    --secondary-color: #FF9C01;
-    --font-size: 16px;
-    --bg-color: rgb(243, 241, 234);
-    --bg-color-secondary: rgb(235, 232, 232);
+   --bg-color: rgb(29, 29, 29);
+    --bg-color-secondary: rgba(35, 34, 34, 0.762);
     --text-color: white;
-    --text-color-secondary: rgb(147, 119, 20);
-    --footer-bg: #1a1a1a;
-    --post-background: rgba(255, 255, 255, 0.626);
-    --text-heading: rgb(147, 119, 20); 
+    --background: #2d2d2d;
+    --foreground: #ededed;
+    --primary-color: #ededf0;
+    --primary-dark: #161622;
+    --secondary-color: #FF9C01;
+    --text-color-secondary: rgb(240, 194, 26);
+    --svg-fill-one: white;
+    --svg-fill-two: #ededee;
+    --footer-bg: #3c3b3b;
+    --post-background: rgba(97, 95, 95, 0.438);
+    --text-heading: rgb(231, 193, 57); 
     --svg-fill-one: white;
     --svg-fill-two: #161622;
     --padding-header-auto: 5px;
@@ -52,7 +53,7 @@
     --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   
   }
-} */
+}
 
 .dark {
   --bg-color: rgb(29, 29, 29);
