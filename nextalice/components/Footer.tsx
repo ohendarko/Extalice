@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '@/app/styles/footer.module.css';
+import '@/app/globals.css'
 import Link from 'next/link';
 
 const Footer = () => {

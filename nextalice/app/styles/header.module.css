@@ -1,8 +1,8 @@
 
 .header {
   font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;;
-  background-color: rgb(243, 241, 234);
-  color:  #161622;
+  background-color: var(--bg-color);
+  color:  var(--primary-color);
   z-index: 100;
 }
 
@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   border-width: 1px;
-  border-color: #161622;
+  border-color: var(--text-color-secondary);
   border-style: solid;
   padding: 5px;
   padding-inline: 15px;
@@ -59,8 +59,8 @@
 }
 
 .searchBox{
-  color: #161622;
-  background-color: rgb(243, 241, 234);;
+  color: var(--primary-color);
+  background-color: var(--bg-color);
   border: none;
   font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 200;
@@ -73,7 +73,7 @@
   object-fit: contain;
   margin-left: 5px;
   cursor: pointer;
-  fill: #161622;
+  fill: var(--text-color-secondary);
 }
 
 .searchIcon:hover {
@@ -84,12 +84,14 @@
 
 .searchButton {
   border-radius: 50%;
+  background-color: var(--bg-color);
+  border-color: var(--text-color-secondary);
 }
 
 .searchButton:hover {
-  background-color: rgb(243, 241, 234);
-  color: white;
-  border-color: rgb(124, 100, 14);
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  border-color: var(--text-color-secondary);
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -105,13 +107,13 @@
 }
 
 .socialIcon svg {
-  fill: #161622;
+  fill: var(--svg-fill-one);
   transition: fill 0.3s ease-in-out;
   height: 40px;
   width: 40px;
 }
 
 .socialIcon svg:hover {
-  fill: rgb(82, 80, 80);
+  fill: var(--svg-fill-two);
   transition: fill 0.2s ease-in-out;
 }

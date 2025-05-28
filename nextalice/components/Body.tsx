@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import '@/app/globals.css'
 import secStyles from "@/app/styles/App.module.css";
 import styles from '@/app/styles/body.module.css';
 import pageHighlight from "@/assets/images/page-highlight.png"
@@ -40,7 +41,7 @@ const Body = () => {
       <div className={`${styles.posts} mt-20`}>
         <h3 className={`${styles.name}`}>Dr. Alice Anane Tawiah</h3>
         <h1 className={styles.postHeading}>My latest Posts</h1>
-        <div className={`${styles.postLineup} px-2`}>
+        <div className={`${styles.postLineup} px-3`}>
           {blogpost.slice(0, 3).map((item) => {
             return (
               <BlogListing blog={item} key={item.id}/>

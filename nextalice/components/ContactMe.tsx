@@ -3,6 +3,7 @@ import ContactForm from '@/components/ContactForm';
 import SignForm from '@/components/SignForm';
 import styles from '@/app/styles/form.module.css';
 import secStyles from '@/app/styles/body.module.css';
+import '@/app/globals.css';
 
 const ContactMe = () => {
   return (

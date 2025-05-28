@@ -82,8 +82,7 @@
 
 .ttRight {
   text-shadow: 0 0 5px white;
-  
-  
+  color: var(--primary-dark); 
 }
 
 .textContainerLeft {
@@ -120,17 +119,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.438);
+  background-color: var(--post-background);
   backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
 }
 
 .name {
-  color:rgb(124, 100, 14);
+  color: var(--text-heading);
+  font-size: 1.2em;
+  padding: 10px;
 }
 
 .postHeading {
   font-size: 2em;
+  color: var(--text-heading);
+  background-color: var(--bg-color);
+  padding-inline: 10px;
 }
 
 .postContainer {
@@ -138,13 +142,16 @@
   flex-direction: column;
   max-width: 500px;
   margin-bottom: 50px;
-  margin-top: 2em
+  margin-top: 2em;
+  color: var(--primary-color);
+  /* background-color: var(--bg-color) */
 }
 
 .postLineup {
   display: flex;
   flex-direction: column;
-  background-color: rgb(243, 241, 234);
+  background-color: var(--bg-color);
+  max-width: 700px;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -162,7 +169,7 @@
   justify-content: center;
   margin-top: 5px;
   padding: 5px;
-  border: 1px solid rgb(124, 100, 14);
+  border: 1px solid var(--text-color-secondary);
   cursor: pointer;
   transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -174,7 +181,8 @@
 
 .seeMore {
   cursor: pointer;
-  background-color: rgb(243, 241, 234);
+  background-color: var(--bg-color);
+  color: var(--primary-color);
   padding: 10px;
   margin-top: 0;
   text-align: center;
@@ -183,7 +191,7 @@
 }
 
 .seeMore:hover {
-  background-color: rgb(235, 232, 232);
+  background-color: var(--bg-color-secondary);
   font-weight: 400;
 }
 
@@ -191,7 +199,7 @@
   margin-top: 80px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(243, 241, 234);
+  background-color: var(--bg-color);
   width: 100%;
   justify-content: center;
   padding-block: 20px;
@@ -219,6 +227,7 @@
 .aliceFashionworld {
   align-self: center;
   font-size: 1.5rem;
+  color: var(--primary-color);
 }
 
 .fashionImage {
@@ -239,7 +248,7 @@
   padding: 3px;
   border-radius: 7px;
   background-color: rgba(124, 100, 14, 0.632);
-  color: white;
+  color: var(--bg-color);
 }
 
 .fashionStatus {
@@ -247,6 +256,7 @@
   bottom: -35px;
   left: 77px;
   background-color: rgba(255, 255, 255, 0.679);
+  color: var(--primary-dark);
   padding: 5px;
   border-radius: 7px;
   border: 1px solid rgba(15, 6, 54, 0.308);
@@ -256,6 +266,7 @@
   align-self: center;
   cursor: pointer;
   text-align: center;
+  color: var(--primary-color);
 }
 
 .contacts {
@@ -266,7 +277,8 @@
   justify-content: flex-start;
   padding: 5px;
   margin-top: 8em;
-  background-color: white;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
 }
 
 .signUp,
