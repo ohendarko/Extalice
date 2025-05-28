@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import styles from '@/app/styles/header.module.css'
+import '@/app/globals.css'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import { Input } from '@/components/ui/input'
 import { Command, CommandGroup, CommandItem } from '@/components/ui/command'
@@ -40,12 +41,12 @@ const SearchBox = () => {
           </button>
         </div>
       </PopoverTrigger>
-      <PopoverContent className="w-[300px] p-0 bg-white">
-        <Command>
-          <CommandGroup heading="Blog Posts">
+      <PopoverContent className={`${styles.header}w-[300px] p-0`}>
+        <Command className={styles.header}>
+          <CommandGroup heading="Blog Posts" className={styles.header}>
             {filteredPosts.length > 0 ? (
               filteredPosts.slice(0, 3).map((post, index) => (
-                <CommandItem key={index}>
+                <CommandItem key={index} className={styles.header}>
                   <Link
 										href={`/blogs/${post.id}`}
 										className="w-full"

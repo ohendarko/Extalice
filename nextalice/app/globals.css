@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-    --background: #ffffff;
+    --bg-color: #f4f6d1a9;
+    --background: rgb(253, 244, 213);
     --foreground: #e6dfdf;
     --primary-color: #161622;
     --primary-dark: #0f0f1b;
     --secondary-color: #FF9C01;
     --font-size: 16px;
-    --bg-color: rgba(236, 232, 218, 0.782);
     --bg-color-secondary: rgb(235, 232, 232);
     --text-color: white;
     --text-color-secondary: rgb(147, 119, 20);
@@ -24,6 +24,7 @@
     --font-weight-regular: 200;
     --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --bg-color-contacts: #fcfbf3;
   
 }
 
@@ -51,6 +52,7 @@
     --font-weight-regular: 200;
     --font-primary: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --font-secondary: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --bg-color-contacts: var(--bg-color);
   
   }
 }
@@ -69,7 +71,8 @@
   --svg-fill-two: #ededee;
   --footer-bg: #3c3b3b;
   --post-background: rgba(97, 95, 95, 0.438);
-  --text-heading: rgb(231, 193, 57); 
+  --text-heading: rgb(231, 193, 57);
+  --bg-color-contacts: var(--bg-color); 
 }
 
 html {
@@ -136,7 +139,7 @@ input, textarea {
   font-family: 'Poppins';
   font-size: 0.8em;
   color: var(--primary-color);
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-contacts);
 }
 
 input:focus {
