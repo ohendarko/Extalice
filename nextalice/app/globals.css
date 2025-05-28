@@ -9,7 +9,7 @@
     --primary-dark: #0f0f1b;
     --secondary-color: #FF9C01;
     --font-size: 16px;
-    --bg-color: rgb(236, 232, 218);
+    --bg-color: rgba(236, 232, 218, 0.782);
     --bg-color-secondary: rgb(235, 232, 232);
     --text-color: white;
     --text-color-secondary: rgb(147, 119, 20);
@@ -29,7 +29,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-   --bg-color: rgb(29, 29, 29);
+   --bg-color: rgba(1, 27, 33, 0.785);
     --bg-color-secondary: rgba(35, 34, 34, 0.762);
     --text-color: white;
     --background: #2d2d2d;
@@ -56,8 +56,8 @@
 }
 
 .dark {
-  --bg-color: rgb(29, 29, 29);
-  --bg-color-secondary: rgba(35, 34, 34, 0.762);
+  --bg-color: rgba(1, 27, 33, 0.785);
+  --bg-color-secondary: rgba(35, 34, 34, 0.553);
   --text-color: white;
   --background: #2d2d2d;
   --foreground: #ededed;
